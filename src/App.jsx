@@ -1,5 +1,5 @@
 import React from 'react'
-import Header from './Components/Header/header'
+
 import Clients from './Components/Our-clients/Our-clients'
 import ImageSlider from './Components/Image-slider/Image-slider'
 import Section from './Components/Section/Section'
@@ -9,11 +9,13 @@ import Testimonials from './Components/Testimonials/Testimonials'
 import ContactUs from './Components/ContactUs/ContactUs'
 import LatestUpdates from './Components/LatestUpdates/LatestUpdates'
 import Calendly from './Components/calendly/calendly'
+import Header from './Components/Header/Header'
+
 
 function App() {
   return (
     <div>
-      <Header/>
+       <Header/>
       <ImageSlider/>
       <Clients/>
       <Section/>

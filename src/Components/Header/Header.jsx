@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-function Header() {
+const Header = () => {
   const [activeDropdown, setActiveDropdown] = useState(null); // Handles both 'services' and 'about'
   return (
     <div className="w-full fixed z-50">
